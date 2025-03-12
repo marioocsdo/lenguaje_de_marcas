@@ -194,7 +194,6 @@
 
 </body>
 </html>
-
 <script>
 document.addEventListener("DOMContentLoaded", function () {
     const main = document.querySelector(".fondo_main");
@@ -236,6 +235,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Mostrar la ventana "meet"
             meet.style.opacity = 1;
             meet.style.height = "auto"; // Asegúrate de que la altura sea "auto" para que se muestre correctamente
+            ventana.style.overflow = "";
 
             // Ocultar las otras ventanas
             work.style.opacity = 0;
@@ -279,6 +279,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Mostrar la ventana "work"
             work.style.opacity = 1;
             work.style.height = "auto"; // Asegúrate de que la altura sea "auto"
+            ventana.style.overflow = "";
 
             // Ocultar las otras ventanas
             meet.style.opacity = 0;

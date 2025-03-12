@@ -217,7 +217,7 @@ a{
     -webkit-backdrop-filter: blur( 15px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-family: 'Satoshi-regular';
-    overflow-y: scroll;
+    overflow: scroll;
 }
 
 #cerrar{
@@ -277,7 +277,6 @@ a{
 #contact{
     position: relative;
     width: 90%;
-    height: 100%;
     left: 5%;
     font-family: 'satoshi-regular';
     display: flex;
