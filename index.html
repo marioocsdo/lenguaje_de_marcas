@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tienda</title>
+</head>
+<body>
+    <div class="header">
+        <div class="seccion_peq" id="negro_header">Get Our Code</div>
+        <div class="seccion_peq">
+            <button id="meet_button">Meet The Team</button>
+        </div>
+        <div class="seccion_peq">
+            <a href="#promo"><button>Products</button></a>
+        </div>
+        <div class="seccion_med">TIENDA DE ROPA INVENTADA</div>
+        <div class="seccion_peq">
+            <button id="contact_button">Contact Us</button>
+        </div>
+        <div class="seccion_peq">
+            <button id="work_button">Work with Us</button>
+        </div>
+        <div class="seccion_peq" id="negro_header">Shopping Bag (0)</div>
+    </div>
+
+    <div class="main">
+        <img src="fondo_main.jpg" alt="fondo_main" class="fondo_main">
+        <div class="promo" id="promo">
+            <div class="promo_header"><h1>TAKE A PEEK!</h1></div>
+            <div class="promo_slider">
+                <div class="promo_slider_container">
+                    <div class="promo_slider_content">
+                        <img src="camiseta.jpg" alt="camiseta">
+                        <div class="comprar">
+                            <button>Comprar</button>
+                            <p>10$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo_slider_container">
+                    <div class="promo_slider_content">
+                        <img src="camiseta.jpg" alt="camiseta">
+                        <div class="comprar">
+                            <button>Comprar</button>
+                            <p>10$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo_slider_container">
+                    <div class="promo_slider_content">
+                        <img src="camiseta.jpg" alt="camiseta">
+                        <div class="comprar">
+                            <button>Comprar</button>
+                            <p>10$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo_slider_container">
+                    <div class="promo_slider_content">
+                        <img src="camiseta.jpg" alt="camiseta">
+                        <div class="comprar">
+                            <button>Comprar</button>
+                            <p>10$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo_slider_container">
+                    <div class="promo_slider_content">
+                        <img src="camiseta.jpg" alt="camiseta">
+                        <div class="comprar">
+                            <button>Comprar</button>
+                            <p>10$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="interruptor"></div>
+    </div>
+
+    <div class="ventana">
+        <button id="cerrar"><ion-icon name="close-outline"></ion-icon></button>
+        <div id="meet">
+            <h1>Meet the Team</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <div class="fotos_equipo">
+                <img src="https://hrlog.es/wp-content/uploads/2022/10/5-c-del-trabajo-en-equipo.jpg" alt="">
+                <img src="https://hrlog.es/wp-content/uploads/2022/10/5-c-del-trabajo-en-equipo.jpg" alt="">
+                <img src="https://hrlog.es/wp-content/uploads/2022/10/5-c-del-trabajo-en-equipo.jpg" alt="">
+            </div>
+
+            <p>Scroll to see the video <ion-icon name="arrow-down-outline"></ion-icon></p>
+
+            <iframe width="90%" height="700px" 
+            src="https://youtu.be/IyIjYuF_HUo?feature=shared" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+        </div>
+
+        <div id="contact">
+            <p><strong>Address:</strong> Fake Street, 123, City, Country</p>
+            <p><strong>Phone:</strong> +123 456 789</p>
+            <p><strong>Email:</strong> contact@company.com</p>
+        
+            <h3>Information Request</h3>
+        
+            <form action="#">
+                <label for="nombre">Name:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="telefono">Phone:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" placeholder="123456789" required>
+        
+                <label for="comentarios">Comments:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+        
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        
+        <div id="work">
+            <h2>Work With Us</h2>
+        
+            <form action="#" method="POST">
+                <fieldset id="field_personales">
+                    <legend>Personal Information</legend>
+                    <span>
+                        <label for="nombre_personal">First Name:</label>
+                        <input type="text" id="nombre_personal" name="nombre_personal" required>
+        
+                        <label for="apellidos">Last Name:</label>
+                        <input type="text" id="apellidos" name="apellidos" required>
+        
+                        <label for="dni">ID Number:</label>
+                        <input type="text" id="dni" name="dni" required>
+                    </span>
+                    <span>
+                        <label for="sexo">Gender:</label>
+                        <select id="sexo" name="sexo" required>
+                            <option value="masculino">Male</option>
+                            <option value="femenino">Female</option>
+                            <option value="otro">Other</option>
+                        </select>
+        
+                        <label for="fecha_nacimiento">Date of Birth:</label>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+        
+                        <label for="ciudad">City:</label>
+                        <input type="text" id="ciudad" name="ciudad" required>
+                    </span>
+                    <span>
+                        <label for="nacionalidad">Nationality:</label>
+                        <input type="text" id="nacionalidad" name="nacionalidad" required>
+        
+                        <label for="codigo_postal">Postal Code:</label>
+                        <input type="text" id="codigo_postal" name="codigo_postal" pattern="\d{5}" required>
+                    </span>
+                    <span>
+                        <label for="telefono_personal">Phone:</label>
+                        <input type="tel" id="telefono_personal" name="telefono_personal" pattern="[0-9]{9}" placeholder="123456789" required>
+        
+                        <label for="email_personal">Email:</label>
+                        <input type="email" id="email_personal" name="email_personal" required>
+                    </span>    
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Education</legend>
+                    <span>
+                        <label for="titulo">Degree Title:</label>
+                        <input type="text" id="titulo" name="titulo" required>
+        
+                        <label for="fecha_inicio">Start Year:</label>
+                        <input type="number" id="fecha_inicio" name="fecha_inicio" min="1900" max="2025" required>
+        
+                        <label for="fecha_fin">End Year:</label>
+                        <input type="number" id="fecha_fin" name="fecha_fin" min="1900" max="2025" required>
+                    </span>    
+                </fieldset>
+        
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+        
+</div>
+
+</body>
+</html>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const main = document.querySelector(".fondo_main");
+    const interruptor = document.querySelector(".interruptor");
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                main.style.filter = "grayscale(100%)"; // Aplica el filtro
+            } else {
+                main.style.filter = "grayscale(0%)"; // Quita el filtro
+            }
+        });
+    }, { threshold: 0.1 });
+
+    observer.observe(interruptor);
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const ventanas = [
+        document.getElementById("meet"),
+        document.getElementById("contact"),
+        document.getElementById("work")
+    ];
+
+    const botones = [
+        document.getElementById("meet_button"),
+        document.getElementById("contact_button"),
+        document.getElementById("work_button")
+    ];
+
+    const ventana = document.querySelector(".ventana");
+
+    if (botones[0]) {
+        botones[0].addEventListener("click", function () {
+            ventana.style.transform = "translateY(0%)";
+
+            // Mostrar la ventana "meet"
+            meet.style.opacity = 1;
+            meet.style.height = "auto"; // Asegúrate de que la altura sea "auto" para que se muestre correctamente
+
+            // Ocultar las otras ventanas
+            work.style.opacity = 0;
+            work.style.height = "0"; // Reducir la altura de la ventana "work" a 0
+            contact.style.opacity = 0;
+            contact.style.height = "0"; // Reducir la altura de la ventana "contact" a 0
+
+            // Deshabilitar la selección de texto en todos los botones
+            botones.forEach(button => {
+                button.style.userSelect = "none";
+            });
+        });
+    }
+
+    if (botones[1]) {
+        botones[1].addEventListener("click", function () {
+            ventana.style.transform = "translateY(0%)";
+
+            // Mostrar la ventana "contact"
+            contact.style.opacity = 1;
+            contact.style.height = "auto"; // Asegúrate de que la altura sea "auto"
+            ventana.style.overflow = "hidden";
+
+            // Ocultar las otras ventanas
+            meet.style.opacity = 0;
+            meet.style.height = "0"; // Reducir la altura de la ventana "meet" a 0
+            work.style.opacity = 0;
+            work.style.height = "0"; // Reducir la altura de la ventana "work" a 0
+
+            // Deshabilitar la selección de texto en todos los botones
+            botones.forEach(button => {
+                button.style.userSelect = "none";
+            });
+        });
+    }
+
+    if (botones[2]) {
+        botones[2].addEventListener("click", function () {
+            ventana.style.transform = "translateY(0%)";
+
+            // Mostrar la ventana "work"
+            work.style.opacity = 1;
+            work.style.height = "auto"; // Asegúrate de que la altura sea "auto"
+
+            // Ocultar las otras ventanas
+            meet.style.opacity = 0;
+            meet.style.height = "0"; // Reducir la altura de la ventana "meet" a 0
+            contact.style.opacity = 0;
+            contact.style.height = "0"; // Reducir la altura de la ventana "contact" a 0
+
+            // Deshabilitar la selección de texto en todos los botones
+            botones.forEach(button => {
+                button.style.userSelect = "none";
+            });
+        });
+    }
+});
+
+;
+
+if (cerrar) {
+    const cerrar = document.getElementById("cerrar");
+    const ventana = document.querySelector(".ventana");
+
+        cerrar.addEventListener("click", function(){
+          ventana.style.transform = "";
+          botones.forEach(button => {
+            button.style.userSelect = "";
+})})};
+
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
